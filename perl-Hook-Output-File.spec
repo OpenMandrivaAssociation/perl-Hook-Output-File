@@ -15,9 +15,10 @@ BuildRequires: perl(Carp)
 BuildRequires: perl(File::Spec)
 BuildRequires: perl(File::Temp)
 BuildRequires: perl(IO::Capture)
+BuildRequires: perl(Module::Build::Compat)
+BuildRequires: perl(Params::Validate)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Tie::Handle)
-BuildRequires: perl(Module::Build::Compat)
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
 
